@@ -202,12 +202,8 @@
   });
 
   el('continueBtn').addEventListener('click', function(){
-    if(typeof window.onCharadeContinue === 'function'){
-      window.onCharadeContinue();
-    } else {
-      alert('Étape suivante à venir...');
-    }
-  });
+    window.location.href = 'etape3.html';
+});
 
 })();
 </script>
